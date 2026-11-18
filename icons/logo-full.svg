@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 122" role="img" aria-label="Чартар. База отдыха">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3dc92"/>
+      <stop offset="0.5" stop-color="#d9b44f"/>
+      <stop offset="1" stop-color="#a8841c"/>
+    </linearGradient>
+    <linearGradient id="gt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9a227"/>
+      <stop offset="0.5" stop-color="#f3dc92"/>
+      <stop offset="1" stop-color="#c9a227"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mountains -->
+  <path d="M34 64 L66 30 L76 40 L104 6 L136 44 L146 36 L168 64 Z" fill="url(#g)"/>
+  <!-- snow cap -->
+  <path d="M104 6 L92 21 L98 19 L103 25 L108 19 L115 23 Z" fill="#fff4cf" opacity="0.95"/>
+  <path d="M66 30 L58 40 L63 38 L67 43 L72 37 L76 40 Z" fill="#fff4cf" opacity="0.85"/>
+  <!-- ridge shading -->
+  <path d="M104 25 L90 64 M104 25 L118 64 M66 43 L56 64" stroke="#8a6a14" stroke-width="1" opacity="0.45" fill="none"/>
+
+  <!-- Trees -->
+  <g fill="url(#g)">
+    <path d="M30 66 L38 48 L34 48 L41 34 L37.5 34 L45 18 L52.5 34 L49 34 L56 48 L52 48 L60 66 L47 66 L47 72 L43 72 L43 66 Z"/>
+    <path d="M150 66 L157 51 L153.5 51 L160 38 L157 38 L164 24 L171 38 L168 38 L174.5 51 L171 51 L178 66 L166 66 L166 72 L162 72 L162 66 Z"/>
+  </g>
+
+  <!-- Ground line -->
+  <path d="M24 72 H176" stroke="url(#gt)" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Title -->
+  <text x="100" y="101" text-anchor="middle" font-family="'Cormorant Garamond','Playfair Display',Georgia,'Times New Roman',serif" font-size="30" font-weight="700" fill="url(#gt)" textLength="168" lengthAdjust="spacingAndGlyphs">ЧАРТАР</text>
+
+  <!-- Subtitle -->
+  <path d="M10 114 H40" stroke="url(#gt)" stroke-width="1"/>
+  <path d="M160 114 H190" stroke="url(#gt)" stroke-width="1"/>
+  <text x="100" y="118" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,'Times New Roman',serif" font-size="10" font-weight="600" fill="#e0c36a" textLength="108" lengthAdjust="spacing">БАЗА ОТДЫХА</text>
+</svg>
