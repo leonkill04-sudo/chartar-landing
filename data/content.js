@@ -26,9 +26,9 @@ export const siteData = {
     subtitle:
       "Сбегите от городской суеты в уединенный уголок природы. Проведите незабываемое время в уютных домиках у горной реки, попаритесь в сибирском чане и насладитесь безмятежным отдыхом. Ждем вас в гости!",
     slides: [
-      "images/territory/hero-slider-1.png",
-      "images/territory/hero-slider-2.png",
-      "images/territory/hero-slider-3.png"
+      "territory/hero-slider-1.png",
+      "territory/hero-slider-2.png",
+      "territory/hero-slider-3.png"
     ]
   },
   about: {
@@ -46,15 +46,15 @@ export const siteData = {
       title: "Экстерьеры домиков",
       images: [
         {
-          src: "images/rooms/house-2-interior.png",
+          src: "rooms/house-2-interior.png",
           alt: "Экстерьер двухместного домика «Чартар»"
         },
         {
-          src: "images/rooms/house-3-standart-interior.png",
+          src: "rooms/house-3-standart-interior.png",
           alt: "Экстерьер гостевого домика на фоне гор"
         },
         {
-          src: "images/rooms/house-3-1standart-interior.png",
+          src: "rooms/house-3-1standart-interior.png",
           alt: "Экстерьер домиков с двумя входами"
         }
       ]
@@ -63,19 +63,19 @@ export const siteData = {
       title: "Интерьеры и номер «Люкс»",
       images: [
         {
-          src: "images/rooms/lux-interior-2.png",
+          src: "rooms/lux-interior-2.png",
           alt: "Номер «Люкс» — спальня"
         },
         {
-          src: "images/rooms/lux-interior-1.png",
+          src: "rooms/lux-interior-1.png",
           alt: "Номер «Люкс» — гардеробная зона"
         },
         {
-          src: "images/rooms/house-4-interior-1.png",
+          src: "rooms/house-4-interior-1.png",
           alt: "Интерьер гостевого домика с двумя кроватями"
         },
         {
-          src: "images/rooms/house-4-interior-2.png",
+          src: "rooms/house-4-interior-2.png",
           alt: "Светлый интерьер домика"
         }
       ]
@@ -87,11 +87,11 @@ export const siteData = {
       "Для наших гостей организовано полноценное домашнее питание (доступно трехразовое меню), а также есть всё необходимое для самостоятельного приготовления блюд на мангале.",
     images: [
       {
-        src: "images/activities/food-1.jpg",
+        src: "activities/food-1.jpg",
         alt: "Аппетитный шашлык и домашние блюда на столе"
       },
       {
-        src: "images/activities/food-2.jpg",
+        src: "activities/food-2.jpg",
         alt: "Мясо на мангале — домашнее питание на базе «Чартар»"
       }
     ],
@@ -106,25 +106,25 @@ export const siteData = {
       title: "Рыбалка на пруду",
       description:
         "Спокойный отдых с удочкой на свежем воздухе — для тех, кто ценит тишину и живую природу.",
-      image: "images/activities/fishing-1.jpg"
+      image: "activities/fishing-1.jpg"
     },
     {
       title: "Сибирские банные чаны",
       description:
         "Традиционные горячие чаны под открытым небом на фоне гор для полного расслабления тела и духа.",
-      image: "images/activities/bany-chan.png"
+      image: "activities/bany-chan.png"
     },
     {
       title: "Конные прогулки",
       description:
         "Живописные маршруты по горным тропам и общение с лошадьми для любителей активного отдыха.",
-      image: "images/activities/horses-1.png"
+      image: "activities/horses-1.png"
     },
     {
       title: "Мангальные зоны и беседки",
       description:
         "Отдельные уютные беседки с мангалами для атмосферных вечеров, барбекю и семейных ужинов.",
-      image: "images/activities/gazebo-bbq-1.png"
+      image: "activities/gazebo-bbq-1.png"
     },
     {
       id: "eco-farm",
@@ -133,17 +133,17 @@ export const siteData = {
         "На территории базы обитают павлины, утки, гуси, кролики и индюки. Наш уютный живой уголок дарит искреннюю радость юным гостям и создает атмосферу настоящей загородной гармонии.",
       slides: [
         {
-          src: "images/activities/peacock-1.png",
+          src: "activities/peacock-1.png",
           alt: "Павлин на эко-ферме «Чартар»",
           caption: "Павлин"
         },
         {
-          src: "images/activities/farm-ducks-1.png",
+          src: "activities/farm-ducks-1.png",
           alt: "Утки и утята на эко-ферме",
           caption: "Утки"
         },
         {
-          src: "images/activities/turkeys-1.png",
+          src: "activities/turkeys-1.png",
           alt: "Индюки на эко-ферме",
           caption: "Индюки"
         }
@@ -153,7 +153,7 @@ export const siteData = {
       title: "Русская баня на дровах",
       description:
         "Ароматная парная на дровах, целебные травы и атмосфера для глубокого расслабления тела и восстановления сил в окружении природы.",
-      image: "images/activities/banya-1.png"
+      image: "activities/banya-1.png"
     }
   ],
   events: {
@@ -162,22 +162,22 @@ export const siteData = {
       "Организуем любые ваши события под ключ: незабываемые дни рождения, корпоративные выезды, романтические свадьбы, гендер-пати, фитнес-туры и душевные вечера у костра. Просторная территория и безупречный сервис для вашего идеального праздника.",
     images: [
       {
-        src: "images/activities/yoga.jpg",
+        src: "activities/yoga.jpg",
         alt: "Йога на природе",
         caption: "Йога"
       },
       {
-        src: "images/activities/birthday.jpg",
+        src: "activities/birthday.jpg",
         alt: "Семейный день рождения",
         caption: "День рождения"
       },
       {
-        src: "images/activities/campfire.jpg",
+        src: "activities/campfire.jpg",
         alt: "Вечер у костра",
         caption: "Вечер у костра"
       },
       {
-        src: "images/activities/wedding.jpg",
+        src: "activities/wedding.jpg",
         alt: "Свадьба на природе",
         caption: "Свадьба"
       }
